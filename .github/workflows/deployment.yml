@@ -28,5 +28,5 @@ jobs:
       url: "https://atlassian.com"
     needs: deploy-dev
     steps:
-      - name: Run a one-line script
+      - name: Runn a one-line script
         run: echo deploy prd
